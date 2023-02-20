@@ -27,14 +27,10 @@ Extend it in `.eslintrc`
 ```
 
 ## Note
-This is simply a wrapper around eslint config from [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate). Currently, I overrided 2 rules from the config:
+This is simply a wrapper around eslint config from [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate). I made some changes to the original config, including:
 
-```
-"prefer-const": 'off',
-"no-var": 'off'
-```
-
-You can read more about why I choose to disable prefer-const in this [blog article](https://khuibeom.com/blog/javascript-fundamentals-basics-and-lexical-scope#value-variable-function) that I wrote.
+1. Removing prettier. I was influenced by this [article](https://antfu.me/posts/why-not-prettier)
+2. Allowing `var` and removing `prefer-const`. You can read about it [here](https://khuibeom.com/blog/javascript-fundamentals-basics-and-lexical-scope/#value-variable-function)
 
 ## License
 [License](./LICENSE)
