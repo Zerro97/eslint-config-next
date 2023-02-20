@@ -4,7 +4,7 @@
 </div>
 
 ## Description
-[License](./LICENSE)
+[![npm](https://img.shields.io/npm/v/@khuibeom/eslint-config-next?color=477ef5)](https://npmjs.com/package/@khuibeom/eslint-config-next)
 
 Opinionated eslint config that I use for Next application.
 
@@ -35,3 +35,6 @@ This is simply a wrapper around eslint config from [Next-js-Boilerplate](https:/
 ```
 
 You can read more about why I choose to disable prefer-const in this [blog article](https://khuibeom.com/blog/javascript-fundamentals-basics-and-lexical-scope#value-variable-function) that I wrote.
+
+## License
+[License](./LICENSE)
