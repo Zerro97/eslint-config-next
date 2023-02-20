@@ -4,7 +4,7 @@
 </div>
 
 ## Description
-[License][./LICENSE]
+[License](./LICENSE)
 
 Opinionated eslint config that I use for Next application.
 
