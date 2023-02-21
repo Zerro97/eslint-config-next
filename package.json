@@ -1,6 +1,6 @@
 {
   "name": "@khuibeom/eslint-config-next",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Opinionated eslint config for Next application",
   "main": "index.js",
   "packageManager": "pnpm@7.18.1",
