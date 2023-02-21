@@ -12,17 +12,30 @@ Opinionated eslint config that I use for Next application.
 Install `@khuibeom/eslint-config-next`
 
 ```
-npm i -D eslint @khuibeom/eslint-config-next
+npm i -D @khuibeom/eslint-config-next
 # or
-pnpm i -D eslint @khuibeom/eslint-config-next
+pnpm i -D @khuibeom/eslint-config-next
 # or
-yarn add -D eslint @khuibeom/eslint-config-next
+yarn add -D @khuibeom/eslint-config-next
 ```
 
 Extend it in `.eslintrc`
 ```json
 {
   "extends": "@khuibeom/next"
+}
+```
+
+## VS Code auto fix
+If you want to auto fix code on save, add the following in `.vscode/settings.json`.
+Make sure [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension is installed.
+
+```json
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```
 
