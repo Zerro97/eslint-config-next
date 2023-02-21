@@ -38,26 +38,12 @@ module.exports = {
           "error",
           { "argsIgnorePattern": "^_" }
         ],
+
+        // Custom
         "prefer-const": 'off',
-        "no-var": 'off'
+        "no-var": 'off',
+        "indent": ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
       }
     },
-    // Configuration for testing
-    {
-      "files": ["**/*.test.ts", "**/*.test.tsx"],
-      "plugins": ["jest", "jest-formatting", "testing-library", "jest-dom"],
-      "extends": [
-        "plugin:jest/recommended",
-        "plugin:jest-formatting/recommended",
-        "plugin:testing-library/react",
-        "plugin:jest-dom/recommended"
-      ]
-    },
-    // Configuration for e2e testing (Cypress)
-    {
-      "files": ["cypress/**/*.ts"],
-      "plugins": ["cypress"],
-      "extends": ["plugin:cypress/recommended"],
-    }
   ]
 }
