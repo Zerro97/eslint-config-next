@@ -40,7 +40,7 @@ Make sure [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.
 ```
 
 ## Note
-This is a wrapper around eslint config from [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate). I made some changes to the original config, however, including:
+This is a wrapper around eslint config from [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate). I made some changes to the original config, including:
 
 1. Removing prettier. I was influenced by this [article](https://antfu.me/posts/why-not-prettier)
 2. Allowing `var` and removing `prefer-const`. You can read about it [here](https://khuibeom.com/blog/javascript-fundamentals-basics-and-lexical-scope/#value-variable-function)
